@@ -69,5 +69,5 @@ with open(budgetData, 'r') as csvfile:
         csvwriter.writerow(['Total Revenue', str(totalRevenue)])
         csvwriter.writerow(['Average Revenue Change', str(AvgRevenueChange)])
         csvwriter.writerow(['Greatest Increase in Revenue', str(monthWithGreatestIncrease) , str(greatestRevenueIncrease)])
-        csvwriter.writerow(['Total Months', str(monthWithGreatestDecrease) , str(greatestRevenueDecrease)])
+        csvwriter.writerow(['Greatest Increase in Revenue', str(monthWithGreatestDecrease) , str(greatestRevenueDecrease)])
     
